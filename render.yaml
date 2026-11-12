@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: vraz-marks-manager
+    env: docker
+    plan: free
+    region: singapore
+    envVars:
+      - key: CONCURRENT_STUDENT_LIMIT
+        value: "5"
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: PORT
+        value: "8000"

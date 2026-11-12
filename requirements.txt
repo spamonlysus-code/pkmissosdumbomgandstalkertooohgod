@@ -1,0 +1,10 @@
+fastapi>=0.115.0
+uvicorn>=0.30.0
+playwright>=1.46.0
+cryptography>=43.0.0
+openpyxl>=3.1.5
+pydantic>=2.8.0
+aiofiles>=24.1.0
+python-multipart>=0.0.9
+requests>=2.32.0
+beautifulsoup4>=4.12.0
