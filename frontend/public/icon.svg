@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="50%" stop-color="#0369a1"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <!-- Rounded App Background -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)"/>
+  
+  <!-- Graduation Cap Icon -->
+  <g filter="url(#shadow)" transform="translate(256, 256)">
+    <!-- Mortarboard Diamond -->
+    <polygon points="0,-100 190,-25 0,50 -190,-25" fill="#ffffff"/>
+    <!-- Skull Cap Base -->
+    <path d="M -90,10 C -90,75 90,75 90,10 L 90,30 C 90,95 -90,95 -90,30 Z" fill="#e2e8f0"/>
+    <!-- Tassel Ribbon & Bob -->
+    <path d="M -150,-10 L -150,85 C -150,90 -165,90 -165,85 L -165,-10 Z" fill="#fbbf24"/>
+    <circle cx="-157" cy="98" r="14" fill="#f59e0b"/>
+    <!-- Button on Top -->
+    <ellipse cx="0" cy="-25" rx="14" ry="7" fill="#cbd5e1"/>
+  </g>
+</svg>
